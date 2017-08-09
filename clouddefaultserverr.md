@@ -1,10 +1,11 @@
 ## 1. Cloud Default Server Setting (Google Cloud) 
 
-## 서버에 Java 설정 
 ### JDK 다운로드 
-```
-wget --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-x64.tar.gz
-```
+<pre><code>
+wget --header 
+  "Cookie: oraclelicense=accept-securebackup-cookie" 
+   http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-x64.tar.gz
+</code></pre>
 
 ### 압축 해제
  
