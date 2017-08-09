@@ -1,4 +1,6 @@
-## spring source 빌드
+# WAS 테스트 
+
+## spring 
  
 ### github 에서 소스가져오기
  
@@ -41,4 +43,26 @@ sudo netstat -tpln
 java -jar -Dserver.port=80 -Djava.net.preferIPv4Stack=true my-slipp-1.0.jar
 ```
 
+
+## spring + jersey 
+
+### github 에서 소스가져오기
+
+```
+git clone https://github.com/kolorobot/spring-boot-jersey-demo.git
+cd spring-boot-jersey-demo
+chmod 775 *
+```
+
+### gradle 로 빌드 
+
+```
+./gradle :run -> BUILD FAILD
+./gradle :jar  
+```
+
+cd build/libs
+java -jar 
+
+no main manifest attribute, in spring-boot-jersey-demo-0.0.1-SNAPSHOT.jar
 

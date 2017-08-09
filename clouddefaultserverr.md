@@ -1,11 +1,16 @@
 ## 1. Cloud Default Server Setting (Google Cloud) 
 
+### Java 버전 확인
+
+```
+java -version
+```
+
 ### JDK 다운로드 
-<pre><code>
-wget --header 
-  "Cookie: oraclelicense=accept-securebackup-cookie" 
-   http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-x64.tar.gz
-</code></pre>
+
+```
+wget --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/jdk-8u144-linux-x64.tar.gz
+```
 
 ### 압축 해제
  
@@ -18,10 +23,10 @@ tar -xvf jdk-8u144-linux-x64.tar.gz
 ``` 
 ln -s jdk1.8.0_144/ java 
 ```
-
-### vi .bash_profile
-
-``` 
+```
+vi .bash_profile
+```
+```
 PATH=$PATH:~/java/bin
 ``` 
 
