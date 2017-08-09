@@ -4,4 +4,4 @@
 
 * <a href="wassetting.md" class="shortcut">WAS setting test</a>
  
-
+* <a href="ubuntscalaplay.md" class="shortcut">Ubuntu + scala + playframework</a>
