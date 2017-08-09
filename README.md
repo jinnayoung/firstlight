@@ -2,6 +2,6 @@
 
 * <a href="clouddefaultserverr.md" class="shortcut">Cloud Default Server Setting</a>
 
-* Cloud Default Server Setting
+* <a href="wassetting.md" class="shortcut">WAS setting test</a>
  
 
